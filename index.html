@@ -130,27 +130,43 @@
   </script>
   <script src="app.js"></script>
   <script>
-    const correctPassword = "GEL2026";
-  
-    document
-      .getElementById("password-form")
-      .addEventListener("submit", function (event) {
+    (() => {
+      const password = 'GEL2026';
+      const accessKey = 'gel2026-site-access';
+      const gate = document.querySelector('.password-gate');
+      const form = document.querySelector('#password-form');
+      const input = document.querySelector('#site-password');
+      const error = document.querySelector('#password-error');
+
+      const unlock = () => {
+        document.body.classList.remove('site-locked');
+        gate.style.display = 'none';
+      };
+
+      try {
+        if (localStorage.getItem(accessKey) === 'granted') {
+          unlock();
+        }
+      } catch (e) {}
+
+      form.addEventListener('submit', event => {
         event.preventDefault();
-  
-        const enteredPassword = document
-          .getElementById("site-password")
-          .value
-          .trim();
-  
-        const errorMessage = document.getElementById("password-error");
-  
-        if (enteredPassword === correctPassword) {
-          document.body.classList.remove("site-locked");
-          document.querySelector(".password-gate").style.display = "none";
+
+        if (input.value.trim() === password) {
+          try {
+            localStorage.setItem(accessKey, 'granted');
+          } catch (e) {}
+
+          error.textContent = '';
+          unlock();
         } else {
-          errorMessage.textContent = "Incorrect password. Please try again.";
+          error.textContent = 'Incorrect password. Please try again.';
+          input.value = '';
+          input.focus();
         }
       });
+    })();
   </script>
+  <script src="app.js"></script>
 </body>
 </html>
