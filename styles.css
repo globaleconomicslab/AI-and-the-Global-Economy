@@ -72,14 +72,14 @@ a {
 }
 
 .brand-name {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .site-nav {
   display: flex;
   align-items: center;
   gap: 34px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -138,7 +138,7 @@ a {
 .eyebrow {
   margin: 0 0 18px;
   color: var(--teal);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -167,7 +167,7 @@ a {
   max-width: 620px;
   margin: 0 0 24px;
   color: #c3d3d1;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -175,7 +175,7 @@ a {
   display: flex;
   gap: 22px;
   color: white;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .hero-meta span + span {
@@ -242,7 +242,7 @@ a {
 .card-kicker {
   margin: 0 0 32px;
   color: var(--teal);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.13em;
   text-transform: uppercase;
@@ -263,7 +263,7 @@ a {
 .info-card p:not(.card-kicker) {
   margin: 0 0 22px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .accent-card p:not(.card-kicker) {
@@ -272,7 +272,7 @@ a {
 
 .text-link {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
@@ -307,7 +307,7 @@ a {
   max-width: 790px;
   margin: 0;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Program */
@@ -322,7 +322,7 @@ a {
   margin-bottom: 6px;
   padding-bottom: 4px;
   border-bottom: 1px solid currentColor;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -357,7 +357,7 @@ a {
 
 .session-no {
   color: var(--teal);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -365,7 +365,7 @@ a {
   display: block;
   margin-bottom: 3px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.04em;
 }
 
@@ -392,14 +392,14 @@ a {
 .session-body p {
   max-width: 650px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.65;
 }
 
 .session-body h4 {
   margin: 25px 0 10px;
   color: var(--teal);
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -418,7 +418,7 @@ a {
   border-radius: 3px;
   background: #e8eee8;
   color: var(--ink);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .session-actions {
@@ -450,7 +450,7 @@ a {
 .reading-list p:not(.card-kicker) {
   margin-bottom: 24px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .reading-list ol {
@@ -462,7 +462,7 @@ a {
 .reading-list li {
   padding: 8px 0;
   border-bottom: 1px solid rgba(44, 123, 120, 0.22);
-  font-size: 13px;
+  font-size: 15px;
 }
 
 /* Footer */
@@ -474,7 +474,7 @@ footer {
   padding: 26px clamp(24px, 5vw, 76px);
   background: var(--navy);
   color: #b8ceca;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.03em;
 }
 
@@ -687,13 +687,14 @@ footer a {
 .reading-list p:not(.card-kicker) {
   margin-bottom: 24px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .section-intro {
   max-width: 620px;
   margin: 18px 0 0;
   color: var(--muted);
+  font-size: 17px;
 }
 
 .participants-card {
@@ -710,7 +711,7 @@ footer a {
 .participants-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .participants-table th,
@@ -724,7 +725,7 @@ footer a {
 .participants-table th {
   color: var(--ink);
   background: var(--mint);
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -732,7 +733,7 @@ footer a {
 .participants-table td:nth-child(2) {
   white-space: nowrap;
   color: var(--teal);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -753,7 +754,7 @@ footer a {
 
 .agenda-time {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
@@ -781,7 +782,7 @@ footer a {
 .agenda-speakers li {
   margin-top: 4px;
   color: var(--ink);
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .agenda-speakers small,
@@ -789,7 +790,7 @@ footer a {
   display: block;
   margin-top: 3px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.45;
 }
 
@@ -828,7 +829,7 @@ footer a {
 .status {
   display: inline-block;
   margin-left: 4px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -909,7 +910,7 @@ footer a {
 .home-sections article p:not(.card-kicker) {
   margin: 0;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .home-sections .card-kicker {
@@ -930,7 +931,7 @@ footer a {
 .home-venue-photo figcaption {
   padding-top: 10px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.03em;
 }
 
@@ -974,13 +975,13 @@ footer a {
 .home-link-card p {
   margin: 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .home-link-arrow {
   margin-top: auto;
   padding-top: 22px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -1064,14 +1065,14 @@ body.site-locked > footer {
 .password-card > p:not(.eyebrow) {
   margin: 0 0 28px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .password-form label {
   display: block;
   margin-bottom: 8px;
   color: var(--ink);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -1100,7 +1101,7 @@ body.site-locked > footer {
   color: white;
   cursor: pointer;
   font: inherit;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -1112,20 +1113,7 @@ body.site-locked > footer {
   min-height: 20px;
   margin: 12px 0 0;
   color: #a44848;
-  font-size: 12px;
-}
-
-.info-card ul {
-  margin: 0 0 22px;
-  padding-left: 20px;
-  color: var(--muted);
   font-size: 14px;
 }
 
-.info-card li {
-  margin-bottom: 8px;
-}
 
-.accent-card ul {
-  color: #e2eeea;
-}
