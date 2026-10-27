@@ -417,7 +417,8 @@ a {
   border-radius: 3px;
   background: #e8eee8;
   color: var(--ink);
-  font-size: 14px;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 16px;
 }
 
 .session-actions {
@@ -793,7 +794,9 @@ footer a {
   line-height: 1.45;
 }
 
-.agenda-speakers strong {
+.agenda-speakers strong,
+.speaker-list strong {
+  font-family: "DM Sans", Arial, sans-serif;
   font-weight: 600;
 }
 
