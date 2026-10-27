@@ -242,7 +242,7 @@ a {
 .card-kicker {
   margin: 0 0 32px;
   color: var(--teal);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.13em;
   text-transform: uppercase;
@@ -365,7 +365,7 @@ a {
   display: block;
   margin-bottom: 3px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 0.04em;
 }
 
@@ -725,7 +725,7 @@ footer a {
 .participants-table th {
   color: var(--ink);
   background: var(--mint);
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -754,7 +754,7 @@ footer a {
 
 .agenda-time {
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
@@ -782,7 +782,7 @@ footer a {
 .agenda-speakers li {
   margin-top: 4px;
   color: var(--ink);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .agenda-speakers small,
@@ -790,7 +790,7 @@ footer a {
   display: block;
   margin-top: 3px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.45;
 }
 
@@ -1115,5 +1115,6 @@ body.site-locked > footer {
   color: #a44848;
   font-size: 14px;
 }
+
 
 
